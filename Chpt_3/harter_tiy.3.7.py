@@ -1,0 +1,26 @@
+famous_people=['joe','kanye','putin']
+famous_people.insert(0,'sans')
+famous_people.insert(2,'peter griffin from family guy')
+famous_people.append('kanye but for a second time')
+#print(famous_people)
+print(f'Hello, {famous_people[0]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[1]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[2]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[3]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[4]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[5]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print('Due to technical dificulties, I will only be able to invite two guests to the dinner party.')
+uninvited=famous_people.pop(0)
+print(f'sorry, {uninvited}, there is not enough room for you at the party.')
+uninvited=famous_people.pop(2)
+print(f'sorry, {uninvited}, there is not enough room for you at the party.')
+uninvited=famous_people.pop(2)
+print(f'sorry, {uninvited}, there is not enough room for you at the party.')
+uninvited=famous_people.pop(2)
+print(f'sorry, {uninvited}, there is not enough room for you at the party.')
+print(f'Hello, {famous_people[0]} you are still invited.')
+print(f'Hello, {famous_people[1]} you are still invited.')
+del famous_people[0]
+del famous_people[0]
+print(famous_people)
+

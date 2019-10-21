@@ -1,0 +1,12 @@
+famous_people=['joe','kanye','putin']
+famous_people.insert(0,'sans')
+famous_people.insert(2,'peter griffin from family guy')
+famous_people.append('kanye but for a second time')
+#print(famous_people)
+print(f'Hello, {famous_people[0]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[1]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[2]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[3]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[4]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(f'Hello, {famous_people[5]} I am holding an extremely fancy dinner party and would like to formally request your presence.')
+print(len(famous_people))
